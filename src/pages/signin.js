@@ -12,6 +12,13 @@ export default function Signin() {
   // check form input elements are valid
   // email & password 
 
+  const isInvalid = password === '' || emailAddress === '';
+  const handleSignIn = (event) => {
+    event.preventDefault();
+
+    // firebase work here!
+  }
+
   return <>
   <HeaderContainer>
     <Form>
@@ -24,9 +31,20 @@ export default function Signin() {
               value={emailAddress}
               onChange={({ target }) => setEmailAddress(target.value)} 
               /> 
+              <Form.Input
+              type="password"
+              placeholder="Password"
+              autoComplete="off"
+              value={password}
+              onChange={({ target }) => setPasswrod(target.value)} 
+              /> 
+
+              <Form.Submit disabled={isInvalid} type="submit">
+                Sign In
+              </Form.Submit>
 
           </form.Base>
-          </Form>
+          </Form.Submit>
   </HeaderContainer>
   <FooterContainer />
   </>
