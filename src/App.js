@@ -1,5 +1,5 @@
 import React  from 'react'
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router, Switch } from 'react-router-dom';
 import * as ROUTES from './constants/routes';
 import { Home, Browse, Signin, Signup } from './pages';
 import { IsUserRedirect, ProtectedRoute } from './helpers/routes';
@@ -9,6 +9,7 @@ export default function App() {
 
   return (
   <Router> 
+  <Switch>
      <Route exact path="/signin">
       <IsUserRedirect
        user={user} 
@@ -30,6 +31,7 @@ export default function App() {
       <Home />
       </IsUserRedirect>
     </Route>
+    </Switch>
   </Router>
   );
 }
