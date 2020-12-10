@@ -7,7 +7,6 @@ export const Container = styled.div`
   min-height: 660px;
   background-color: rgba(0, 0, 0, 0.75);
   border-radius: 5px;
-  box-sizing: border-box;
   width: 100%;
   margin: auto;
   max-width: 450px;
@@ -54,6 +53,7 @@ export const TextSmall = styled.p`
 export const Link = styled(ReachRouterLink)`
   color: #fff;
   text-decoration: none;
+
   &:hover {
     text-decoration: underline;
   }
@@ -68,6 +68,7 @@ export const Input = styled.input`
   line-height: 50px;
   padding: 5px 20px;
   margin-bottom: 20px;
+
   &:last-of-type {
     margin-bottom: 30px;
   }
@@ -83,6 +84,7 @@ export const Submit = styled.button`
   border: 0;
   color: white;
   cursor: pointer;
+
   &:disabled {
     opacity: 0.5;
   }
