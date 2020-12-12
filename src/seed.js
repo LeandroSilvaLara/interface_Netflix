@@ -85,6 +85,7 @@ export function seedDatabase(firebase) {
       maturity: '15',
       slug: 'curb-your-enthusiasm',
     });
+
     firebase.firestore().collection('series').add({
       id: getUUID(),
       title: 'Family Guy',
