@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# Netflix clone - React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img alt="Author" src="https://img.shields.io/badge/author-Leandro%20Lara-informational?style=flat-square">
+	
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/LeandroSilvaLara/interface_Netflix?color=informational">
 
-## Available Scripts
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/LeandroSilvaLara/interface_Netflix?color=informational">
+  
+  <a href="https://github.com/marcelo-rafael/happy/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/LeandroSilvaLara/interface_Netflix?color=informational">
+  </a>
 
-In the project directory, you can run:
+  <a href="https://github.com/marcelo-rafael/nlw-03-happy/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/LeandroSilvaLara/interface_Netflix?color=informational">
+  </a>
 
-### `yarn start`
+  <a href="https://github.com/LeandroSilvaLara/interface_Netflix/blob/master/LICENSE.md">
+    <img alt="License" src="https://img.shields.io/badge/license-MIT-informational">
+  <a>
+   
+   <a href="https://github.com/LeandroSilvaLara/interface_Netflix/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/LeandroSilvaLara/interface_Netflix?style=flat-square?color=informational">
+  </a>
+  
+  <a href="https://github.com/LeandroSilvaLara/interface_Netflix/stargazers">
+    <img alt="Forks" src="https://img.shields.io/github/forks/LeandroSilvaLara/interface_Netflix?style=flat-square?color=informational">
+  </a>
+  
+  <a href="https://github.com/LeandroSilvaLara/interface_Netflix/stargazers">
+    <img alt="Contributors" src="https://img.shields.io/github/contributorsLeandroSilvaLara/interface_Netflix?style=flat-square&color=informational">
+  </a>
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
+This application (a Netflix clone) was built using React (Custom Hooks, Context), Firebase & Styled Components. I have built the following pages within this application: sign in, sign up, browse & lastly the homepage. There are four different pages, some using protected routes with auth listeners. Firebase firestore handles all the data and that data is retrieved using a custom hook; authentication is used on all pages, which is handled by Firebase as well.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+I used compound components (just a design pattern) to build my components, and there's over 10 examples as to how these are used. The styling is all handled via styled components. Using compound components made my actual dumb components really easy to test.
 
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Final](https://user-images.githubusercontent.com/49800137/101988928-94cc6800-3c7b-11eb-98f7-7e015b248a57.gif)
