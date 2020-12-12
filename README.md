@@ -28,7 +28,7 @@
   </a>
   
   <a href="https://github.com/LeandroSilvaLara/interface_Netflix/stargazers">
-    <img alt="Contributors" src="https://img.shields.io/github/contributorsLeandroSilvaLara/interface_Netflix?style=flat-square&color=informational">
+    <img alt="Contributors" src="https://img.shields.io/github/contributors/LeandroSilvaLara/interface_Netflix?style=flat-square&color=informational">
   </a>
 </p>
 
