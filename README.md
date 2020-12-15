@@ -57,7 +57,7 @@ I used compound components (just a design pattern) to build my components, and t
 [![Gmail Badge](https://img.shields.io/badge/-leandroshinigami@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=leandroshinigami@gmail.com)](leandroshinigami@gmail.com)
 
 
-## 📕 License
+## 📕 License.
 
 
 This project is under the [MIT](./LICENSE).
