@@ -49,7 +49,7 @@ I used compound components (just a design pattern) to build my components, and t
 - Install dependencies: `yarn`
 - Run Application: `yarn start`
 
-# :man: Autor
+# :man: Autor.
 
 <img  border-radius="50px" src="https://user-images.githubusercontent.com/49800137/97786310-6c842080-1b89-11eb-8584-0bb77c50d700.jpg" width="100px" alt="Leandro Lara"/>
 
